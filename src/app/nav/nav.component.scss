@@ -1,0 +1,25 @@
+
+.nav{
+    @apply bg-gray-800
+    flex 
+    flex-row 
+    justify-center
+    align-middle
+    gap-10
+    p-5;
+    
+}
+.navItem{
+    @apply text-gray-50
+    pr-3
+    pl-3
+    rounded-xl
+    uppercase
+    font-bold
+    border-2
+    border-transparent;
+}
+.navItem:hover{
+    @apply 
+    border-white
+}
